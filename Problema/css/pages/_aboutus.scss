@@ -1,0 +1,63 @@
+.bio {
+	.box-autor {
+		margin:4% 0% 9%;
+		 
+        .img-autor {
+	    	float: left;
+	    	margin: 0% 3% 3% 0%;
+	    	width: 33%;
+            border: 1px solid silver;
+            padding: 0.5%;
+	    }
+	    p{
+	      font-size: 18px;
+          line-height: 1.4;
+          color: #5A5A5A;
+          font-weight: 500;
+
+	    }
+	    .text-orange {
+	    	margin: 7% 5%;
+            border-left: 10px solid $orange;
+	    	p {
+	    	color: $orange;
+	    	margin: 2%;
+	        }
+	    }
+
+	    h4 {
+	    	color: $orange;
+	    	margin: 0;
+	    }
+	    .raya{
+		    background-image: url("../images/heading-bg.png");
+            padding: 10px;
+            position: relative;
+            bottom: 24px;
+            margin-left: 55%;
+            width: 50%;
+        }
+        .box-info {
+        	margin-bottom: 15%;
+            
+            .box-p {
+                p {
+                color: black;
+                margin: 0;
+                }
+            }
+            .box-cubos {
+        	    .cubos {
+        	        display: inline-block;
+                    width: 60px;
+                    height: 60px;
+                    background-color: $pink;
+                    margin: 0.3% 0.3% 0%;
+                    border: 1px solid $orange;
+        	    }
+        	}
+
+        }
+    }
+
+ }

@@ -1,0 +1,70 @@
+.box-post {
+	padding: 0 5% 0% 0%;
+
+	.img-post {
+		width: 100%;
+		margin-bottom: 5%;
+	}
+	h3 {
+		margin: 0 0 5%;
+        color: $orange;
+	}
+	.col-md-4 p {
+		margin: 5% 0;
+	}
+    .barra {
+	background-image: url("../images/heading-bg.png");
+    padding: 10px;
+    bottom: 24px;
+    width: 100%;
+    margin: 6% 0%;
+    }
+    .box-float {
+    	position: absolute;
+        left: -74px;
+        top: -2px;;
+    }
+    .bg-text{
+    	background-image: url(../images/quote_bg.png);
+        padding: 8%;
+
+        .img-quote {
+            float: left;
+            width: 5%;
+            margin-top: -25px;
+
+        }
+        p {
+            margin-left: 6%;
+        }
+    }
+    .bg-web {
+    	background-color: $white;
+    	padding: 0;
+
+        h3 {
+        	margin: -2.5% 0 1%;
+        }
+    	a {
+    		color: $silver;
+    		font-size: 1em;
+    	}
+    	p {
+    		margin: 3%;
+    	}
+    }
+    .box-a {
+    	background-color: #E7663B;
+        text-align: center;
+        padding: 1% 0 0.5%;
+        width: 50px;
+        display: inline-block;
+        
+        &:hover {
+        	background-color: $pink;
+        }
+        p{
+        	color: white;
+        }
+    }
+}

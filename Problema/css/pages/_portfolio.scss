@@ -1,0 +1,88 @@
+.nav {
+	h3 {
+	    margin: 5% 0% 14%;
+		
+	    .title {
+		    color: $black;
+            font-weight: 700;
+            float: left;
+	    }
+	    .active {
+	       background-color: $orange;
+           padding: 14px 20px;
+           width: 70px;
+           font-size: 20px;
+           display: inline-block;
+           a {
+              color: $white !important;
+           }
+
+        }
+	    .category{
+	       color: $white;
+	       text-transform: uppercase;
+	       float: left;
+           margin: -1% 0% 0% 4%;
+	       
+	       .cat-item  {
+    	        display: inline-block;
+                font-size: large;
+                text-transform: uppercase;
+                font-family: beba;
+                a {
+        	        color: $silver;
+        	        margin: 30px;
+                }
+                a:hover {
+        	        text-decoration: none;
+        	        color: $pink;
+        	        margin:30px;
+                }
+            }
+        }
+    }
+}
+.movies {
+	.box-movies {
+		margin-bottom: 5%;
+		transition: 1s;
+		&:hover {
+			.image{
+				background-color: rgba(0,0,0,0.5);
+			}
+			
+		}
+
+	}
+	.portfolio-item2 {
+	   padding-right: 0;
+	   
+
+    }
+    .home-portfolio-text {
+    	border: 1px solid silver;
+        margin: 3% 0;
+        padding: 5% 5% 0;
+    }
+    h3 {
+    	margin-top: 0;
+    	color: $silver;
+    	a {
+    		color: $silver;
+            font-size: smaller;
+            text-decoration: none;
+    	}
+    }
+    p {
+    	text-transform: uppercase;
+        font-family: 'beba';
+        color: $orange;
+        font-size: small;
+    }
+    .image-block {
+    	border: 1px solid $silver;
+        padding: 0.3% 0.4%;
+        border-radius: 1px;
+    }
+
+}

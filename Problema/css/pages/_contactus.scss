@@ -1,0 +1,36 @@
+.box-map {
+	padding: 0;
+
+	img {
+	    width: 95%;
+	    margin-bottom: 3%;
+	}
+	input {
+		@include input;
+		height: 45px;
+	}
+	textarea {
+		@include input;
+	}
+	.name {
+		margin-bottom: 15px;
+        width: 300px;
+	}
+	.email {
+		width: 310px;
+	}
+	.message {
+		width: 450px;
+
+		button {
+			background-color: $orange;
+            border: none;
+            border-radius: 0px;
+            width: 100%;
+            padding: 14px 0 7px;
+            font-size: xx-large;
+            color: white;
+            font-family: 'beba';
+		}
+	}
+}

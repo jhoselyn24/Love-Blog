@@ -1,0 +1,18 @@
+$orange: #E7663B;
+$pink: #F5AF9C;
+$silver: #BBBBBB;
+$white: white;
+$gray: #626262;
+$black: black;
+
+.style-title {
+    font-size: large;
+    font-weight: 600;
+}
+@mixin input {
+	border-color: $orange;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}

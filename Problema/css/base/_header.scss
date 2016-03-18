@@ -1,0 +1,60 @@
+body {
+	padding-top: 82px;
+}
+header {
+    .navbar-default{
+        background-color: white;
+        border:none;
+
+        h1 {
+            margin: 0;
+        	font-size: -webkit-xxx-large;
+        	font-weight: 700;
+        	color:$orange;
+
+        	span {
+        		color:$pink;
+        	}
+
+        }
+	    .navbar-right {
+		    @extend .style-title;
+		    margin-top: 14px;
+            
+            li a {
+            	color: $silver;
+            	font-size: larger;
+		        
+            	&:hover {
+			       color: $orange;
+			       background:none;
+		        }
+		           
+		        
+            }
+
+		}
+	}
+}
+.header_bottom_area {
+	height: 100px;
+	background-color: $pink;
+}
+.header_area {
+	height: 63px;
+	background-color: $pink;
+    
+    .bg-header {
+    	background-color: #E7663B;
+        border-left: 15px solid white;
+        border-right: 15px solid white;
+
+    	h3 {
+		  text-transform: uppercase;
+		  font-size: 30px;
+		  color: $white;
+	    }
+
+    }
+	
+}
